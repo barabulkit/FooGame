@@ -1,0 +1,5 @@
+build/
+.vs/
+*.swp
+SDL2/build/
+SDL2_image/build/
