@@ -1,4 +1,4 @@
-#Building
+# Building
 Build SDL2 (can require superuser priveleges to install lib)
 ```
 cd SDL2
