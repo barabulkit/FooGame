@@ -2,7 +2,7 @@
 #include <stdio.h>
 #include <process_events.h>
 
-int main() {
+int main(int argc, char* argv[]) {
 	if(SDL_Init(SDL_INIT_EVERYTHING) != 0) {
 		printf("SDL_Init Error: %s", SDL_GetError());
 		return 1;

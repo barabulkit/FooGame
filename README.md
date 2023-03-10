@@ -19,3 +19,9 @@ mkdir build && cd build
 cmake ..
 cmake --build .
 ```
+# Windows Troubleshooting (if necessary)
+use 
+```make install```
+instead of
+```cmake --build . --target install```
+then add folders SDL2 and SDL2_image in your path variable
